@@ -1,6 +1,7 @@
-# kschain-resolver
 <img src="https://user-images.githubusercontent.com/72974863/192973196-cb5b248b-d307-4fce-bae6-f3525681ea85.png" width=70% height=70%>
 
+# kschain-resolver
+This repository contains the KSChina driver source code for DIF Unviversal Resolver. For the official KSChain DID Method specification, pleasae visit the '1.1 KSChain DID Method Sepcification' link.
 
 ## 1. Specification
 ### 1.1 KSChain DID Method Specification
