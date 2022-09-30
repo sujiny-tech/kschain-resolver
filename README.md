@@ -1,7 +1,7 @@
 <img src="https://user-images.githubusercontent.com/72974863/192973196-cb5b248b-d307-4fce-bae6-f3525681ea85.png" width=70% height=70%>
 
 # Universal Resolver Driver: did:kscirc
-This is a [Universal Resolver](https://github.com/decentralized-identity/universal-resolver/) driver for **did:kscirc** identifiers.   
+This is a [Universal Resolver](https://github.com/decentralized-identity/universal-resolver/) driver for **did:kscirc** identifiers by K4-Security.   
 This repository contains KSChian driver source code for DIF Unviversal Resolver. For the official KSChain DID Method specification, pleasae visit [the relative section](https://tangy-gallium-b9b.notion.site/DID-Method-Specification-KSChain-7a77664f1eae47769692f4ff2d029fe0).
 
 ## 1. Specification
@@ -21,8 +21,10 @@ did:kscirc:k17qQYbApdfTdxsrS77k3sbFmJCWfJf7QrvZSfMaAmq6MWpbeGs
 
 
 ## 3. Build and Run (Docker)
+### 3.1 Pull kschain-resolver image from DockerHub
++ [DockerHub : KSChain-resolver](https://hub.docker.com/r/k4security/kschain-resolver)
 ```
-docker build -f ./Dockfile/Dockerfile -t k4security/kschain-resolver .    
+docker pull k4security/kschain-resolver
 docker run -p 8080:8080 k4security/kschain-resolver
 ```
 
