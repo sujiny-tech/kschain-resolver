@@ -14,15 +14,20 @@ This repository contains KSChian driver source code for DIF Unviversal Resolver.
 
 
 ## 2. Example DIDs
-```did:kscirc:k12NqvVM9BX6AaMjPK1hUTUkKBWPBAUXAszTxdx7jDZPv4iqCZ1D```
-```did:kscirc:k17qQYbApdfTdxsrS77k3sbFmJCWfJf7QrvZSfMaAmq6MWpbeGs```
+```
+did:kscirc:k12NqvVM9BX6AaMjPK1hUTUkKBWPBAUXAszTxdx7jDZPv4iqCZ1D    
+did:kscirc:k17qQYbApdfTdxsrS77k3sbFmJCWfJf7QrvZSfMaAmq6MWpbeGs
+```
 
 
 ## 3. Build and Run (Docker)
-```docker build -f ./Dockfile/Dockerfile -t k4security/kschain-resolver .```
-```docker run -p 8080:8080 k4security/kschain-resolver```
+```
+docker build -f ./Dockfile/Dockerfile -t k4security/kschain-resolver .    
+docker run -p 8080:8080 k4security/kschain-resolver
+```
 
 ## 4. Example request
-```curl -X GET http://localhost:8080/1.0/identifiers/did:kscirc:k12NqvVM9BX6AaMjPK1hUTUkKBWPBAUXAszTxdx7jDZPv4iqCZ1D```
-```curl -X GET http://localhost:8080/1.0/identifiers/did:kscirc:k17qQYbApdfTdxsrS77k3sbFmJCWfJf7QrvZSfMaAmq6MWpbeGs```
-
+```
+curl -X GET http://localhost:8080/1.0/identifiers/did:kscirc:k12NqvVM9BX6AaMjPK1hUTUkKBWPBAUXAszTxdx7jDZPv4iqCZ1D    
+curl -X GET http://localhost:8080/1.0/identifiers/did:kscirc:k17qQYbApdfTdxsrS77k3sbFmJCWfJf7QrvZSfMaAmq6MWpbeGs
+```
