@@ -2,7 +2,7 @@
 
 # Universal Resolver Driver: did:kscirc
 This is a [Universal Resolver](https://github.com/decentralized-identity/universal-resolver/) driver for **did:kscirc** identifiers.   
-This repository contains KSChian driver source code for DIF Unviversal Resolver. For the official KSChain DID Method specification, pleasae visit [the relative section)](https://tangy-gallium-b9b.notion.site/DID-Method-Specification-KSChain-7a77664f1eae47769692f4ff2d029fe0).
+This repository contains KSChian driver source code for DIF Unviversal Resolver. For the official KSChain DID Method specification, pleasae visit [the relative section](https://tangy-gallium-b9b.notion.site/DID-Method-Specification-KSChain-7a77664f1eae47769692f4ff2d029fe0).
 
 ## 1. Specification
 ### 1.1 KSChain DID Method Specification
