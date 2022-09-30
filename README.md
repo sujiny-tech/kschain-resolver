@@ -19,7 +19,6 @@ did:kscirc:k12NqvVM9BX6AaMjPK1hUTUkKBWPBAUXAszTxdx7jDZPv4iqCZ1D
 did:kscirc:k17qQYbApdfTdxsrS77k3sbFmJCWfJf7QrvZSfMaAmq6MWpbeGs
 ```
 
-
 ## 3. Build and Run (Docker)
 ### 3.1 Pull kschain-resolver image from DockerHub
 + [DockerHub : KSChain-resolver](https://hub.docker.com/r/k4security/kschain-resolver)
@@ -29,6 +28,7 @@ docker run -p 8080:8080 k4security/kschain-resolver
 ```
 
 ## 4. Example request
+### 4.1 curl test
 ```
 curl -X GET http://localhost:8080/1.0/identifiers/did:kscirc:k12NqvVM9BX6AaMjPK1hUTUkKBWPBAUXAszTxdx7jDZPv4iqCZ1D    
 curl -X GET http://localhost:8080/1.0/identifiers/did:kscirc:k17qQYbApdfTdxsrS77k3sbFmJCWfJf7QrvZSfMaAmq6MWpbeGs
